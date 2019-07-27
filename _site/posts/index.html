@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>PC Review</title>
+<!-- begin _includes/seo.html --><title>Posts by Year - PC Review</title>
 <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
 
 
@@ -17,8 +17,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="PC Review">
-<meta property="og:title" content="PC Review">
-<meta property="og:url" content="http://localhost:4000/">
+<meta property="og:title" content="Posts by Year">
+<meta property="og:url" content="http://localhost:4000/posts/">
 
 
 
@@ -32,11 +32,9 @@
 
 
 
-<link rel="canonical" href="http://localhost:4000/">
+<link rel="canonical" href="http://localhost:4000/posts/">
 
 
-
-  <link rel="next" href="http://localhost:4000/page2/">
 
 
 
@@ -88,7 +86,7 @@
 
   </head>
 
-  <body class="layout--home">
+  <body class="layout--posts">
     <nav class="skip-links">
   <h2 class="screen-reader-text">Skip links</h2>
   <ul>
@@ -267,14 +265,34 @@
 
   <div class="archive">
     
-      <h1 id="page-title" class="page__title"></h1>
+      <h1 id="page-title" class="page__title">Posts by Year</h1>
     
     
 
-<h3 class="archive__subtitle">Recent Posts</h3>
-
-
+<ul class="taxonomy__index">
   
+  
+    <li>
+      <a href="#2019">
+        <strong>2019</strong> <span class="taxonomy__count">1</span>
+      </a>
+    </li>
+  
+    <li>
+      <a href="#2010">
+        <strong>2010</strong> <span class="taxonomy__count">6</span>
+      </a>
+    </li>
+  
+</ul>
+
+
+
+  <section id="2019" class="taxonomy__section">
+    <h2 class="archive__subtitle">2019</h2>
+    <div class="entries-list">
+      
+        
 
 
 
@@ -300,8 +318,16 @@
   </article>
 </div>
 
+      
+    </div>
+    <a href="#page-title" class="back-to-top">Back to Top &uarr;</a>
+  </section>
 
-  
+  <section id="2010" class="taxonomy__section">
+    <h2 class="archive__subtitle">2010</h2>
+    <div class="entries-list">
+      
+        
 
 
 
@@ -329,8 +355,8 @@
   </article>
 </div>
 
-
-  
+      
+        
 
 
 
@@ -363,8 +389,8 @@
   </article>
 </div>
 
-
-  
+      
+        
 
 
 
@@ -392,8 +418,8 @@
   </article>
 </div>
 
-
-  
+      
+        
 
 
 
@@ -421,45 +447,66 @@
   </article>
 </div>
 
+      
+        
 
 
 
-<nav class="pagination">
-  
-  <ul>
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/blog/post-standard/" rel="permalink">Post: Standard
+</a>
+      
+    </h2>
     
-    <li><a href="#" class="disabled"><span aria-hidden="true">Previous</span></a></li>
-    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
 
-    
-    
-      <li><a href="#" class="disabled current">1</a></li>
-    
 
-    
-    
 
-    
-    
-    
 
+  4 minute read
+</p>
     
+    <p class="archive__item-excerpt" itemprop="description">All children, except one, grow up. They soon know that they will grow up, and the way Wendy knew was this. One day when she was two years old she was playing...</p>
+  </article>
+</div>
 
-    
-    
+      
+        
 
-    
-      <li><a href="/page2/">2</a></li>
-    
 
-    
-    
-      <li><a href="/page2/">Next</a></li>
-    
-  </ul>
-</nav>
 
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/blog/post-modified/" rel="permalink">Post: Modified Date
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">This post has been updated and should show a modified date if used in a layout.
+
+</p>
+  </article>
+</div>
+
+      
+    </div>
+    <a href="#page-title" class="back-to-top">Back to Top &uarr;</a>
+  </section>
 
 
   </div>
