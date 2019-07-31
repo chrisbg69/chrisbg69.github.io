@@ -1,46 +1,13 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title></title>
-        <link rel="stylesheet" href="/assets/css/main.css">
-    </head>
-    <body>
-        <header>
-    <div class="site-name nav-link"><a href="http://localhost:4000">PC Review</a></div>
-    <nav>
-        <ul class="nav">
-            
-                <li class="nav-item">
-                    <a class="nav-link" href="/">Home</a>
-                </li>
-            
-                <li class="nav-item">
-                    <a class="nav-link" href="/about/">About</a>
-                </li>
-            
-                <li class="nav-item">
-                    <a class="nav-link" href="/contacts/">Contacts</a>
-                </li>
-            
-        </ul>
-    </nav>
-</header>
-        <main>
-            <div class="posts">
-    
-        <article>
-            <h2><a href="/jekyll/update/2019/07/31/welcome-to-jekyll.html">Welcome to Jekyll!</a></h2>
-            Published on 31 Jul 2019
-            <p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+---
+layout: post
+title:  "My Example Blog Post"
+date:   2019-04-14 12:44:05 -0500
+permalink: /example-post/
+categories: example jekyll 
+---
 
 
-        </article>
-    
-        <article>
-            <h2><a href="/example-post/">My Example Blog Post</a></h2>
-            Published on 14 Apr 2019
-            <div class="article">
+<div class="article">
         
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Partim cursu et peragratione laetantur, congregatione aliae coetum quodam modo civitatis imitantur; Mihi quidem Antiochum, quem audis, satis belle videris attendere. Et quidem, inquit, vehementer errat; Quia dolori non voluptas contraria est, sed doloris privatio. Duo Reges: constructio interrete. Immo alio genere; Animi enim quoque dolores percipiet omnibus partibus maiores quam corporis. An nisi populari fama?</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Partim cursu et peragratione laetantur, congregatione aliae coetum quodam modo civitatis imitantur; Mihi quidem Antiochum, quem audis, satis belle videris attendere. Et quidem, inquit, vehementer errat; Quia dolori non voluptas contraria est, sed doloris privatio. Duo Reges: constructio interrete. Immo alio genere; Animi enim quoque dolores percipiet omnibus partibus maiores quam corporis. An nisi populari fama?</p>
@@ -48,19 +15,3 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Partim cursu et peragratione laetantur, congregatione aliae coetum quodam modo civitatis imitantur; Mihi quidem Antiochum, quem audis, satis belle videris attendere. Et quidem, inquit, vehementer errat; Quia dolori non voluptas contraria est, sed doloris privatio. Duo Reges: constructio interrete. Immo alio genere; Animi enim quoque dolores percipiet omnibus partibus maiores quam corporis. An nisi populari fama?</p>
             
     </div>
-
-        </article>
-    
-</div>﻿
-        </main>
-        <footer>
-    <div class="footer-description">
-        
-            <p>All rights reserved &copy; PC Review</p>
-
-
-        
-    </div>
-</footer>
-    </body>
-</html>
