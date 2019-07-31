@@ -1,11 +1,12 @@
 ---
+title: My Example Blog Post
+date: 2019-04-14 17:44:05 Z
+permalink: "/example-post/"
+categories:
+- example
+- jekyll
 layout: post
-title:  "My Example Blog Post"
-date:   2019-04-14 12:44:05 -0500
-permalink: /example-post/
-categories: example jekyll 
 ---
-
 
 <div class="article">
         
