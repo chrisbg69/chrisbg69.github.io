@@ -4,12 +4,22 @@
         <meta charset="utf-8">
         <title>{{ page.title }}</title>
         <link rel="stylesheet" href="/assets/css/main.css">
+        <link rel="stylesheet" href="/assets/css/flexslider.css">
     </head>
     <body>
-        {% include header.html %}
+        {% include header.html %}        
         <main>
             {{ content }}
         </main>
         {% include footer.html %}
+
+        <!-- Flexslider Scripts
+=================================================-->
+	<!-- Google CDN Hosted jQuery  -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+	<!-- Flexslider Library  -->
+	<script src="/assets/js/flexslider/jquery.flexslider-min.js"></script>
+	<!-- Initialisation Code  -->
+	<script src="/assets/js/app.js"></script>
     </body>
 </html>

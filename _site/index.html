@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <title></title>
         <link rel="stylesheet" href="/assets/css/main.css">
+        <link rel="stylesheet" href="/assets/css/flexslider.css">
     </head>
     <body>
         <header>
@@ -25,9 +26,28 @@
             
         </ul>
     </nav>
-</header>
+</header>        
         <main>
-            <div class="posts">
+            <!-- Place somewhere in the <body> of your page -->
+    <div class="flexslider carousel">
+        <ul class="slides">
+          <li>
+            <img src="/assets/images/1.jpg" />
+          </li>
+          <li>
+            <img src="/assets/images/2.jpg" />
+          </li>
+          <li>
+            <img src="/assets/images/3.jpg" />
+          </li>
+          <li>
+            <img src="/assets/images/1.jpg" />
+          </li>
+          <!-- items mirrored twice, total of 12 -->
+        </ul>
+      </div>
+      
+<div class="posts">
     
         <article>
             <h2><a href="/jekyll/update/2019/07/31/welcome-to-jekyll.html">Welcome to Jekyll!</a></h2>
@@ -45,7 +65,9 @@
 
         </article>
     
-</div>﻿
+</div>
+
+
         </main>
         <footer>
     <div class="footer-description">
@@ -53,5 +75,14 @@
         
     </div>
 </footer>
+
+        <!-- Flexslider Scripts
+=================================================-->
+	<!-- Google CDN Hosted jQuery  -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+	<!-- Flexslider Library  -->
+	<script src="/assets/js/flexslider/jquery.flexslider-min.js"></script>
+	<!-- Initialisation Code  -->
+	<script src="/assets/js/app.js"></script>
     </body>
 </html>

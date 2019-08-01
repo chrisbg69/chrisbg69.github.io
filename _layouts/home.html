@@ -3,6 +3,25 @@ title: Global pc review
 layout: default
 ---
 
+<!-- Place somewhere in the <body> of your page -->
+    <div class="flexslider carousel">
+        <ul class="slides">
+          <li>
+            <img src="/assets/images/1.jpg" />
+          </li>
+          <li>
+            <img src="/assets/images/2.jpg" />
+          </li>
+          <li>
+            <img src="/assets/images/3.jpg" />
+          </li>
+          <li>
+            <img src="/assets/images/1.jpg" />
+          </li>
+          <!-- items mirrored twice, total of 12 -->
+        </ul>
+      </div>
+      
 <div class="posts">
     {% for post in site.posts %}
         <article>
@@ -11,4 +30,5 @@ layout: default
             {{ post.excerpt }}
         </article>
     {% endfor %}
-</div>﻿
+</div>
+
