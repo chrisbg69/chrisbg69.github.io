@@ -1,0 +1,31 @@
+.grid-text {
+    text-align: center;
+}
+
+.grid-conteiner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "grid-block grid-block grid-block";
+    grid-gap: 1em;
+    margin-bottom: 2em;
+}
+
+.grid-block {
+    display: grid;
+    
+    border: 1px solid #cccccc;
+
+}
+
+.main-grid-content {
+    list-style: none;    
+    text-align: center;
+    padding: 2em 0 2em;
+    
+}
+
+.main-grid-content li {
+    margin-top: 1em;
+}
