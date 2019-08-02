@@ -1,14 +1,4 @@
-/*
- * jQuery FlexSlider v2.7.2
- * https://www.woocommerce.com/flexslider/
- *
- * Copyright 2012 WooThemes
- * Free to use under the GPLv2 and later license.
- * http://www.gnu.org/licenses/gpl-2.0.html
- *
- * Contributing author: Tyler Smith (@mbmufffin)
- *
- */
+
 /* ====================================================================================================================
  * FONT-FACE
  * ====================================================================================================================*/
@@ -41,7 +31,7 @@
  * BASE STYLES
  * ====================================================================================================================*/
 .flexslider {
-  margin: 0;
+  margin:  0;
   padding: 0;
 }
 .flexslider .slides > li {
@@ -49,8 +39,12 @@
   -webkit-backface-visibility: hidden;
 }
 .flexslider .slides img {
-  width: 100%;
+  /* width: 100%; */
   display: block;
+  max-height: 300px; /*maximum height for all slides*/
+    width: auto; /*proper aspect ratio of images*/
+    max-width: 100%; /*maximum width for all slides*/
+    margin: 0 auto; /*centering images in the container*/
 }
 .flexslider .slides:after {
   content: "\0020";
@@ -73,7 +67,7 @@ html[xmlns] .flexslider .slides {
  * DEFAULT THEME
  * ====================================================================================================================*/
 .flexslider {
-  margin: 0 0 60px;
+  margin: 3rem 0;
   background: #fff;
   border: 4px solid #fff;
   position: relative;
