@@ -41,7 +41,7 @@
 .flexslider .slides img {
   /* width: 100%; */
   display: block;
-  max-height: 300px; /*maximum height for all slides*/
+  max-height: 500px; /*maximum height for all slides*/
     width: auto; /*proper aspect ratio of images*/
     max-width: 100%; /*maximum width for all slides*/
     margin: 0 auto; /*centering images in the container*/
