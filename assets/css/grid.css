@@ -15,17 +15,17 @@
 
 .grid-block {
     display: grid;
-    
+
     border: 1px solid #cccccc;
     border-radius: 1em;
 
 }
 
 .main-grid-content {
-    list-style: none;    
+    list-style: none;
     text-align: center;
     padding: 0.5em;
-    
+
 }
 
 .main-grid-content li {

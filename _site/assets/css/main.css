@@ -1,5 +1,7 @@
 @import url('typography.css');
 @import url('grid.css');
+@import url('slider.css');
+
 
 body { 
     font-family: sans-serif;
