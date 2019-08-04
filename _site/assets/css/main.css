@@ -45,6 +45,27 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
     font-weight: 300;
     font-size: small;
     padding-top: 0.5rem;
+    
+    
+}
+
+.header-links li:nth-child(1){
+    padding-right: 5px;
+}
+
+.header-links li:nth-child(2){
+    padding-right: 10px;
+}
+
+.header-links li:nth-child(3){
+    padding-right: 10px;
+}
+
+.header-links li:nth-child(4){
+    padding-right: 5px;
+}
+
+.header-links li:nth-child(5){
     padding-right: 10px;
 }
 
@@ -60,11 +81,11 @@ header {
 }
 
 header .site-name {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 700;
     line-height: 1.5;
     color: #ffffff;
-    padding-top: 0.8rem;
+    padding-top: 0.3rem;
 }
 
 header .site-name a {
