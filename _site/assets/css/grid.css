@@ -11,12 +11,13 @@
         "grid-block grid-block grid-block";
     grid-gap: 1em;
     margin-bottom: 2em;
+    
 }
 
 .grid-block {
     display: grid;
-
-    border: 1px solid #cccccc;
+    background-color: #cccccc;
+    border: 2px solid #385170;
     border-radius: 1em;
 
 }
