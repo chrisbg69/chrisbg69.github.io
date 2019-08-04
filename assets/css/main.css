@@ -44,7 +44,7 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
 .header-links li {
     font-weight: 300;
     font-size: small;
-    padding-top: 0.5rem;
+    line-height: 2rem;
     
     
 }
