@@ -1,10 +1,11 @@
 @import url('typography.css');
 @import url('grid.css');
 @import url('slider.css');
+@import url('variables.css');
 
 
 body { 
-    font-family: sans-serif;
+    
     background-color: #ececec;
 }
 
@@ -24,6 +25,31 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
     color: #142d4c;
 }
 
+.top-header {
+    height: 2rem;
+    background-color: #282727;
+    border-bottom: 1px solid #ececec;
+}
+
+.header-links {
+    display: flex;
+    list-style: none;
+    color: #ffffff;
+    justify-content: flex-end;
+    padding-right: 10px;
+    
+    
+}
+
+.header-links li {
+    font-weight: 300;
+    font-size: small;
+    padding-top: 0.5rem;
+    padding-right: 10px;
+}
+
+
+
 header {   
     height: 5rem;
     background-color: #385170;
@@ -35,13 +61,15 @@ header {
 
 header .site-name {
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 1.5;
     color: #ffffff;
     padding-top: 0.8rem;
 }
 
 header .site-name a {
+    font-family: 'Kaushan Script', cursive;
+
     color: #ffffff;
     
 }
@@ -68,6 +96,7 @@ nav a:hover {
 }
 
 footer {
+    height: 5rem;
     padding: 15px;
     color: #ffffff;
     background-color: #385170;

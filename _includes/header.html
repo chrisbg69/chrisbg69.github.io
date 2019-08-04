@@ -1,11 +1,23 @@
+<div class="top-header">
+       <ul class="header-links">
+           <li><i class="fas fa-phone"></i></li>
+           <li>(+359) 888 123 456</li>
+           <li>|</li>
+           <li><i class="fas fa-envelope"></i></li>
+           <li>pcreview@gmail.com</li>
+       </ul> 
+</div>
+
 <header>
+
     <div class="site-name nav-link"><a href="{{ site.url }}">{{ site.title }}</a></div>
+    
     <nav>
         <ul class="nav">
             {% for item in site.data.navigation %}
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ item.path }}">{{ item.title }}</a>
-                </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ item.path }}">{{ item.title }}</a>
+            </li>
             {% endfor %}
         </ul>
     </nav>
