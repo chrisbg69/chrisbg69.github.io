@@ -1,4 +1,4 @@
-.grid-text {
+.grid-text {    
     text-align: center;
     margin-bottom: 2rem;
 }
@@ -31,4 +31,8 @@
 .main-grid-content li {
     margin-top: 0.5em;
 
+}
+
+.main-grid-content li i {
+    color: #385170;
 }
