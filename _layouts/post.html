@@ -4,6 +4,9 @@ layout: default
 
 <article>
     <h2>{{ page.title }}</h2>
+    {% if page.feature-img %}
+    <img class="feature-image" src={{ page.feature-img }} alt="Feature Image"/>
+    {% endif %}
     Published on {{ page.date | date_to_string }}
     {{ content }}
 </article> 
