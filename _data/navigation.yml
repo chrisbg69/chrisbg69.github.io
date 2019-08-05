@@ -2,6 +2,8 @@
   path: /
 - title: Blog
   path: /blog/
+- title: Gallery
+  path: /gallery/
 - title: About
   path: /about/
 - title: Contacts

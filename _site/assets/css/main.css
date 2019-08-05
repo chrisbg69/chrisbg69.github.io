@@ -1,6 +1,7 @@
 @import url('typography.css');
 @import url('grid.css');
 @import url('slider.css');
+@import url('grid-gallery.css');
 @import url('variables.css');
 
 
@@ -111,7 +112,7 @@ nav .nav-item {
     margin: 0 10px;
     list-style: none;
 }
-
+ 
 nav a {
     color: #ffffff;
 }
