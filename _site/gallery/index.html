@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Gallery</title>
+        <link rel="stylesheet" href="/assets/css/main.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="/assets/js/responsiveslides.min.js"></script>
+        <link rel="stylesheet" href="/fontawesome/css/all.min.css">
+        <script>
+            $(function() {             
+      $(".rslides").responsiveSlides({
+        auto: true,
+        pager: false,
+        nav: true,
+        speed: 500,
+        namespace: "callbacks",
+        before: function () {
+          $('.events').append("<li>before event fired.</li>");
+        },
+        after: function () {
+          $('.events').append("<li>after event fired.</li>");
+        }
+      });
+            });
+          </script>
+    </head>
+    <body>
+        <div class="top-header">
+       <ul class="header-links">
+           <li><i class="fas fa-phone"></i></li>
+           <li>(+359) 888 123 456</li>
+           <li>|</li>
+           <li><i class="fas fa-envelope"></i></li>
+           <li>pcreview@gmail.com</li>
+       </ul> 
+</div>
+
+<header>
+
+    <div class="site-name nav-link"><a href="http://localhost:4000">PC Review</a></div>
+    
+    <nav>
+        <ul class="nav">
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/">Home</a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/blog/">Blog</a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/gallery/">Gallery</a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/about/">About</a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/contacts/">Contacts</a>
+            </li>
+            
+        </ul>
+    </nav>
+</header>        
+        <main>
+            <article>
+    <h2>Gallery</h2>
+    <div class="grid-container">
+    <article class="location-listing">
+        <a class="location-title" href="#">Desktop PC</a>
+        <div class="location-image">
+            <a href="#"><img width="300" height="169" src="/assets/images/Desktop-PC-1.jpg" alt="desktop-1"> </a>
+        </div>
+    </article>
+
+    <article class="location-listing">
+        <a class="location-title" href="#">Corsair One Pro</a>
+        <div class="location-image">
+            <a href="#"><img width="300" height="169" src="/assets/images/Desktop-PC-2.jpg" alt="desktop-2"></a>
+        </div>
+    </article>
+
+    <article class="location-listing">
+        <a class="location-title" href="#">iMac 21.5-inch</a>
+        <div class="location-image"><a href="#"><img width="300" height="169" src="/assets/images/Desktop-PC-3.jpg"
+                    alt="imac"></a>
+        </div>
+    </article>
+
+    <article class="location-listing">
+        <a class="location-title" href="#">MS Surface Book 2</a>
+        <div class="location-image"><a href="#"><img width="300" height="169" src="/assets/images/laptop-1.jpg"
+                    alt="surface"></a>
+        </div>
+    </article>
+
+    <article class="location-listing">
+        <a class="location-title" href="#">Lenovo Legion Y530</a>
+        <div class="location-image"><a href="#"><img width="300" height="169" src="/assets/images/laptop-2.jpg"
+                    alt="legion"></a>
+        </div>
+    </article>
+
+    <article class="location-listing">
+        <a class="location-title" href="#">Dell G7 15</a>
+        <div class="location-image"><a href="#"><img width="300" height="169" src="/assets/images/laptop-3.jpg"
+                    alt="dell"></a>
+        </div>
+    </article>
+
+    <article class="location-listing">
+        <a class="location-title" href="#">Network server room</a>
+        <div class="location-image"><a href="#"><img width="300" height="169" src="/assets/images/network-1.jpg"
+                    alt="network"></a>
+        </div>
+    </article>
+
+    <article class="location-listing">
+        <a class="location-title" href="#">Netgear Pro Gaming XR500</a>
+        <div class="location-image"><a href="#"><img width="300" height="169" src="/assets/images/network-2.jpg"
+                    alt="netgear"></a>
+        </div>
+    </article>
+
+    <article class="location-listing">
+        <a class="location-title" href="#">Apple iPad Pro</a>
+        <div class="location-image"><a href="#"><img width="300" height="169" src="/assets/images/tablet-1.jpg"
+                    alt="tablet"></a>
+        </div>
+    </article>
+</div>
+</article>
+        </main>
+        <section class="subfooter">
+    <div class="up-footer">
+
+        
+    </div>
+
+
+</section>
+
+
+
+
+
+<footer>
+    <div class="footer-description">
+        <p>All rights reserved &copy; PC Review 2019</p>
+        
+    </div>
+</footer>
+
+
+
+
+        
+    </body>
+</html>
+            

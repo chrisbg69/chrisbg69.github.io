@@ -1,0 +1,55 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1em;
+}
+
+.location-image {
+    line-height: 0;
+}
+
+.location-image img {
+    width: 100%;
+    height: auto;
+    filter: blur(0px);
+    transition: filter 0.3s ease-in;
+    transform: scale(1.1);
+}
+
+.location-listing {
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.location-listing:hover .location-image img {
+    filter: blur(2px);
+  }
+
+.location-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(90, 0, 10, 0.4);
+    /* typographic styles */
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    /* position the text centrally*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* hide the title by default */
+    opacity: 0;
+    transition: opacity .5s;
+    z-index: 1;
+}
+
+
+.location-listing:hover .location-title {
+    opacity: 1;
+}
