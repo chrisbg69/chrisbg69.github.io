@@ -1,4 +1,4 @@
-.grid-text {    
+.grid-text {
     text-align: center;
     margin-bottom: 0;
 }
@@ -16,7 +16,7 @@
         "grid-block grid-block grid-block";
     grid-gap: 1em;
     margin-bottom: 2em;
-    
+
 }
 
 .grid-block {
@@ -41,4 +41,43 @@
 
 .main-grid-content li i {
     color: #385170;
+}
+
+.clients_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "grid-clents grid-clents grid-clents grid-clents grid-clents";
+    grid-gap: 1em;
+    margin-bottom: 2em;
+}
+
+.grid-clents {
+    display: grid;
+    justify-self: center;
+
+}
+
+.clients_list a:hover {
+    animation: coin-rotate 1s both infinite;
+}
+
+.section_header {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+@keyframes coin-rotate {
+    0% {
+        transform: rotateY(0);
+    }
+
+    50% {
+        transform: rotateY(180deg);
+    }
+
+    100% {
+        transform: rotateY(0deg);
+    }
 }

@@ -8,7 +8,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: person@example.com
+email: archangelbg@abv.bg
 description: Welcome to my new blog running on Jekyll and NorthStack!
 baseurl: ''
 url: ''
