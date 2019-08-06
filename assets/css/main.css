@@ -121,23 +121,18 @@ nav a:hover {
     color: #9fd3c7;
 }
 
-.footer-bottom {
-    /* height: 5rem;
-    padding: 15px;
+.main-footer {
+    height: 5rem;    
     color: #ffffff;
-    background-color: #385170;  */  
+    background-color: #385170;
+}
+
+.footer-bottom {    
     text-align: left;
     height: 2rem;
     background-color: #282727;
     border-top: 1px solid #ececec;
     margin-bottom: 0;
-}
-
-.main-footer {
-    height: 5rem;
-    
-    color: #ffffff;
-    background-color: #385170;
 }
 
 .footer-bottom p {
