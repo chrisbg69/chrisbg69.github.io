@@ -121,17 +121,31 @@ nav a:hover {
     color: #9fd3c7;
 }
 
-footer {
-    height: 5rem;
+.footer-bottom {
+    /* height: 5rem;
     padding: 15px;
     color: #ffffff;
-    background-color: #385170;
-    box-shadow: 0 50vh 0 50vh #385170;
+    background-color: #385170;  */  
     text-align: left;
+    height: 2rem;
+    background-color: #282727;
+    border-top: 1px solid #ececec;
+    margin-bottom: 0;
 }
 
-footer p {
-    line-height: 5rem;
+.main-footer {
+    height: 5rem;
+    
+    color: #ffffff;
+    background-color: #385170;
+}
+
+.footer-bottom p {
+    line-height: 2rem;
+    font-size: small;
+    color: #ffffff;
+    margin-bottom: 0;
+    padding-left: 10px;
 }
 
 
