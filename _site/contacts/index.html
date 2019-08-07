@@ -69,11 +69,7 @@
         <main>
             <article>
     <h2>Contacts</h2>
-    <!-- 
-     After implementing this contact form make sure
-     1. you have defined "email: youremail@email.com" in _config.yml file.
-     2. you verify your form on formspree.io.
--->
+    <section class="contacts">
 
 <form class="wj-contact" action="https://formspree.io/archangelbg@abv.bg" method="POST">
     <input type="text" name="email" placeholder="Email Address">
@@ -84,6 +80,10 @@
     <input type="submit" value="Submit">
 </form>
 
+<div class="google-map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2931.4564342521553!2d23.254205055017074!3d42.715229085474974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sbg!2sbg!4v1565185263253!5m2!1sbg!2sbg" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+</section>
 <style>
 form.wj-contact input[type="text"], form.wj-contact textarea[type="text"] {
     width: 100%;
@@ -103,12 +103,13 @@ form.wj-contact input[type="text"], form.wj-contact textarea[type="text"] {
 form.wj-contact input[type="submit"] {
     outline: none;
     color: white;
-    background-color: #2e83e6;
+    background-color: #385170;
     border-radius: 3px;
     padding: 0.5em;
     margin: 0.25em 0 0 0;
     border: 1px solid transparent;
     height: auto;
+    width: 100%;
 }
 </style>
 
@@ -130,10 +131,24 @@ form.wj-contact input[type="submit"] {
 
 <footer>
     <div class="main-footer">
-
+        <div class="main-footer-section-1">
+                <a href="http://localhost:4000">PC Review</a>
+                <span>We show the future!</span>
+        </div>
+        <div class="main-footer-section-2">
+            <span>About Us</span>
+            <span><i class="fas fa-map-marker-alt"></i>Bulgaria, Sofia 1000</span>
+            <span><i class="fas fa-phone"></i>(+359) 888 123 456</span>
+            <span><i class="fas fa-fax"></i>(+359) 02 678 900</span>
+            <span><i class="fas fa-envelope"></i>pcreview@gmail.com</span>
+        </div>
+        <div class="main-footer-section-3">
+               <img src="/assets/images/pc-icon.png" alt="">
+            </div>
+           
     </div>
     <div class="footer-bottom">
-        <p>All rights reserved &copy; PC Review 2019</p>
+        <p>All rights reserved &copy; PC Review 2019 created by chrisbg69</p>
         
     </div>
 </footer>

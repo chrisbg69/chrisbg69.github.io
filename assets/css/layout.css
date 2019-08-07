@@ -1,0 +1,195 @@
+body { 
+    
+    background: #ececec;
+}
+
+main {
+    max-width: 1100px;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #142d4c;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a {
+    color: #142d4c;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
+    color: #142d4c;
+}
+
+.top-header {
+    height: 2rem;
+    background-color: #282727;
+    border-bottom: 1px solid #ececec;
+}
+
+.header-links {
+    display: flex;
+    list-style: none;
+    color: #ffffff;
+    justify-content: flex-end;
+    padding-right: 10px;
+    
+    
+}
+
+.header-links li {
+    font-weight: 300;
+    font-size: small;
+    line-height: 2rem;  
+    
+}
+
+.header-links li:nth-child(1){
+    padding-right: 5px;
+}
+
+.header-links li:nth-child(2){
+    padding-right: 10px;
+}
+
+.header-links li:nth-child(3){
+    padding-right: 10px;
+}
+
+.header-links li:nth-child(4){
+    padding-right: 5px;
+}
+
+.header-links li:nth-child(5){
+    padding-right: 10px;
+}
+
+
+
+header {   
+    height: 5rem;
+    background-color: #385170;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px;
+}
+
+header .site-name {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.8;
+    color: #ffffff;
+    
+}
+
+header .site-name a {
+    font-family: 'Kaushan Script', cursive;
+
+    color: #ffffff;
+    
+}
+
+nav {
+    align-self: center;
+}
+
+nav .nav {
+    display: flex;
+}
+
+nav .nav-item {
+    margin: 0 10px;
+    list-style: none;
+}
+ 
+nav a {
+    color: #ffffff;
+}
+
+nav a:hover {
+    color: #9fd3c7;
+}
+
+.main-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "main-footer-section-1 main-footer-section-2 main-footer-section-3";
+    grid-gap: 1em;
+    height: 7rem;    
+    color: #ffffff;
+    background-color: #385170;
+    
+}
+
+.main-footer span {
+    display: block;
+    font-size: small;
+
+}
+
+.main-footer-section-1,
+.main-footer-section-2,
+.main-footer-section-3 {
+   justify-self: center;
+   padding-top: 1em;
+   text-align: left;
+}
+
+.main-footer-section-1 {
+    font-size: 1.5rem;
+    font-weight: 700;   
+    
+}
+
+.main-footer-section-1 span {
+    font-weight: normal;
+}
+
+.main-footer-section-1 a {
+    font-family: 'Kaushan Script', cursive;
+    color: #ffffff;
+}
+
+.footer-bottom {    
+    text-align: center;
+    height: 2rem;
+    background-color: #282727;
+    border-top: 1px solid #ececec;
+    margin-bottom: 0;
+}
+
+.footer-bottom p {
+    line-height: 2rem;
+    font-size: small;
+    color: #ffffff;
+    margin-bottom: 0;
+    
+}
+
+
+
+
+
+article {
+    background: #ffffff;
+    border-radius: 0.5em;
+    padding: 15px;
+    margin: 30px 0;
+}
+
+.contacts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "wj-contact google-map";
+    grid-gap: 1em;
+    justify-content: space-between;
+}
+

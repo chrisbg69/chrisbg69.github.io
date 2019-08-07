@@ -24,7 +24,7 @@ html {
     html { font-size: var(--font-size-body-huge, 20px); }
 }
 
-body, table, form, select, option, input, textarea {
+table, form, select, option, input, textarea {
     font: inherit;
     background: var(--color-body-bgrd, #FFF);
     color: var(--color-body-text, #000);
