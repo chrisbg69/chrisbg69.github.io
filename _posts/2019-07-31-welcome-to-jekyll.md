@@ -1,9 +1,7 @@
 ---
 title: Welcome to Jekyll!
 date: 2019-07-31 18:42:07 Z
-categories:
-- jekyll
-- update
+categories: Tech
 layout: post
 ---
 

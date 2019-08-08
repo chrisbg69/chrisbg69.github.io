@@ -9,7 +9,8 @@ collections:
     title: Uploads
     output: true
 email: archangelbg@abv.bg
-description: Welcome to my new blog running on Jekyll and NorthStack!
+description: Welcome to my new blog running on Jekyll
+permalink: /:categories/:title/
 baseurl: ''
 url: ''
 markdown: kramdown
