@@ -116,12 +116,12 @@ nav a:hover {
 
 .main-footer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas:
-        "main-footer-section-1 main-footer-section-2 main-footer-section-3";
+        "main-footer-section-1 main-footer-section-2 main-footer-section-3 main-footer-section-4";
     grid-gap: 1em;
-    height: 7rem;    
+    height: 12rem;    
     color: #ffffff;
     background-color: #385170;
     
@@ -129,13 +129,14 @@ nav a:hover {
 
 .main-footer span {
     display: block;
-    font-size: small;
+    font-size: normal;
 
 }
 
 .main-footer-section-1,
 .main-footer-section-2,
-.main-footer-section-3 {
+.main-footer-section-3,
+.main-footer-section-4 {
    justify-self: center;
    padding-top: 1em;
    text-align: left;
@@ -148,7 +149,7 @@ nav a:hover {
 }
 
 .main-footer-section-1 span {
-    font-weight: normal;
+    font-size: small;
 }
 
 .main-footer-section-1 a {
@@ -156,8 +157,36 @@ nav a:hover {
     color: #ffffff;
 }
 
+.main-footer-section-2 ul {
+    list-style: none;
+    padding-left: 0;
+    
+}
+
+.main-footer-section-2 p {
+    text-decoration: underline;
+    margin-bottom: 0;
+}
+
+.main-footer-section-3 p {
+    text-decoration: underline;
+    margin-bottom: 0;
+    
+}
+
+.nav-footer {
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav-link-footer {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .footer-bottom {    
-    text-align: center;
+    text-align: left;
+    padding-left: 10px;
     height: 2rem;
     background-color: #282727;
     border-top: 1px solid #ececec;
