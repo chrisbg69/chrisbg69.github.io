@@ -184,6 +184,10 @@ nav a:hover {
     color: #ffffff;
 }
 
+.nav-link-footer:hover {
+    color: #9fd3c7;
+}
+
 .footer-bottom {    
     text-align: left;
     padding-left: 10px;
