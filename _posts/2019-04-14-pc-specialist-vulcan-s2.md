@@ -1,5 +1,5 @@
 ---
-title: PC Specialist Vulcan S2 review
+title: PC Specialist Vulcan S2
 date: 2019-04-14 17:44:05 Z
 categories: DesktopComputers
 layout: post

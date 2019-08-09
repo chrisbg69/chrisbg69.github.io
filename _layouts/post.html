@@ -13,9 +13,9 @@ layout: default
       
     {% assign words = content | number_of_words %}
     {% if words < 360 %}
-      <small>1 min reading time.</small>
+      <small>1 min reading time</small>
     {% else %}
-       <small>{{ words | divided_by:180 }} mins reading time.</small>
+       <small>{{ words | divided_by:180 }} mins reading time</small>
     {% endif %}
     
   </span>

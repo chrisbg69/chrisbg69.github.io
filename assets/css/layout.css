@@ -216,6 +216,28 @@ article {
     margin: 30px 0;
 }
 
+/* Categories style */
+
+.category-head {
+    text-align: left;
+    color: #000;
+    padding-left: 3rem;
+}
+
+.archive-item {
+    margin: 0;
+    padding: 0;
+    padding-left: 3rem;
+}
+
+.archive-item a {
+    color: #385170;
+}
+
+.archive-item a:hover {
+    color: #9fd3c7;
+}
+
 .contacts {
     display: grid;
     grid-template-columns: 1fr 1fr;

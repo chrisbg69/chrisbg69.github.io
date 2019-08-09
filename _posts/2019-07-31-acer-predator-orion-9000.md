@@ -1,5 +1,5 @@
 ---
-title: Acer Predator Orion 9000 Review
+title: Acer Predator Orion 9000
 date: 2019-07-31 18:42:07 Z
 categories: DesktopComputers
 layout: post
