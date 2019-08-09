@@ -238,6 +238,13 @@ article {
     color: #9fd3c7;
 }
 
+/* About page */
+
+.about-page {
+    text-align: left;
+    color: #142d4c;
+}
+
 .contacts {
     display: grid;
     grid-template-columns: 1fr 1fr;
