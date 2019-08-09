@@ -1,5 +1,5 @@
-body { 
-    
+body {
+
     background: #ececec;
 }
 
@@ -8,19 +8,32 @@ main {
     margin: auto;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     color: #142d4c;
 }
 
-a, a:hover {
+a,
+a:hover {
     text-decoration: none;
 }
 
-h1 a, h2 a, h3 a, h4 a, h5 a {
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a {
     color: #142d4c;
 }
 
-h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover {
     color: #142d4c;
 }
 
@@ -36,40 +49,40 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
     color: #ffffff;
     justify-content: flex-end;
     padding-right: 10px;
-    
-    
+
+
 }
 
 .header-links li {
     font-weight: 300;
     font-size: small;
-    line-height: 2rem;  
-    
+    line-height: 2rem;
+
 }
 
-.header-links li:nth-child(1){
+.header-links li:nth-child(1) {
     padding-right: 5px;
 }
 
-.header-links li:nth-child(2){
+.header-links li:nth-child(2) {
     padding-right: 10px;
 }
 
-.header-links li:nth-child(3){
+.header-links li:nth-child(3) {
     padding-right: 10px;
 }
 
-.header-links li:nth-child(4){
+.header-links li:nth-child(4) {
     padding-right: 5px;
 }
 
-.header-links li:nth-child(5){
+.header-links li:nth-child(5) {
     padding-right: 10px;
 }
 
 
 
-header {   
+header {
     height: 5rem;
     background-color: #385170;
     display: flex;
@@ -83,14 +96,14 @@ header .site-name {
     font-weight: 700;
     line-height: 1.8;
     color: #ffffff;
-    
+
 }
 
 header .site-name a {
     font-family: 'Kaushan Script', cursive;
 
     color: #ffffff;
-    
+
 }
 
 nav {
@@ -105,7 +118,7 @@ nav .nav-item {
     margin: 0 10px;
     list-style: none;
 }
- 
+
 nav a {
     color: #ffffff;
 }
@@ -121,10 +134,10 @@ nav a:hover {
     grid-template-areas:
         "main-footer-section-1 main-footer-section-2 main-footer-section-3 main-footer-section-4";
     grid-gap: 1em;
-    height: 12rem;    
+    height: 12rem;
     color: #ffffff;
     background-color: #385170;
-    
+
 }
 
 .main-footer span {
@@ -137,19 +150,20 @@ nav a:hover {
 .main-footer-section-2,
 .main-footer-section-3,
 .main-footer-section-4 {
-   justify-self: center;
-   padding-top: 1em;
-   text-align: left;
+    justify-self: center;
+    padding-top: 1em;
+    text-align: left;
 }
 
 .main-footer-section-1 {
     font-size: 1.5rem;
-    font-weight: 700;   
-    
+    font-weight: 700;
+
 }
 
 .main-footer-section-1 span {
     font-size: small;
+    
 }
 
 .main-footer-section-1 a {
@@ -160,7 +174,7 @@ nav a:hover {
 .main-footer-section-2 ul {
     list-style: none;
     padding-left: 0;
-    
+
 }
 
 .main-footer-section-2 p {
@@ -171,7 +185,7 @@ nav a:hover {
 .main-footer-section-3 p {
     text-decoration: underline;
     margin-bottom: 0;
-    
+
 }
 
 .nav-footer {
@@ -188,7 +202,7 @@ nav a:hover {
     color: #9fd3c7;
 }
 
-.footer-bottom {    
+.footer-bottom {
     text-align: left;
     padding-left: 10px;
     height: 2rem;
@@ -199,10 +213,10 @@ nav a:hover {
 
 .footer-bottom p {
     line-height: 2rem;
-    font-size: x-small;
+    font-size: small;    
     color: #ffffff;
     margin-bottom: 0;
-    
+
 }
 
 
@@ -246,6 +260,29 @@ article {
     color: #142d4c;
 }
 
+/*Pagination on blog*/
+
+.pagination a,
+.pagination span {
+    padding: 7px 18px;
+    border: 1px solid #eee;
+    margin-left: -2px;
+    margin-right: -2px;
+    color: #385170;
+    background-color: #ffffff;
+    display: inline-block;
+}
+
+.pagination a:hover {
+    background-color: #142d4c;
+    color: #fff;
+}
+
+.pagination {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 /* Contact Page */
 
 .contacts {
@@ -258,7 +295,8 @@ article {
     justify-content: space-between;
 }
 
-form.wj-contact input[type="text"], form.wj-contact textarea[type="text"] {
+form.wj-contact input[type="text"],
+form.wj-contact textarea[type="text"] {
     width: 100%;
     vertical-align: middle;
     margin-top: 0.25em;
@@ -273,6 +311,7 @@ form.wj-contact input[type="text"], form.wj-contact textarea[type="text"] {
     border-radius: 3px;
     transition: box-shadow .2s ease;
 }
+
 form.wj-contact input[type="submit"] {
     outline: none;
     color: white;
@@ -284,4 +323,3 @@ form.wj-contact input[type="submit"] {
     height: auto;
     width: 100%;
 }
-
