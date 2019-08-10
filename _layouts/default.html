@@ -1,14 +1,17 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>{{ page.title }}</title>
-        <link rel="stylesheet" href="/assets/css/main.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        <script src="/assets/js/responsiveslides.min.js"></script>
-        <link rel="stylesheet" href="/fontawesome/css/all.min.css">
-        <script>
-            $(function() {             
+
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="/assets/js/responsiveslides.min.js"></script>
+  <link rel="stylesheet" href="/fontawesome/css/all.min.css">
+  <script>
+    $(function () {
       $(".rslides").responsiveSlides({
         auto: true,
         pager: false,
@@ -22,17 +25,19 @@
           $('.events').append("<li>after event fired.</li>");
         }
       });
-            });
-          </script>          
-    </head>
-    <body>
-        {% include header.html %}        
-        <main>
-            {{ content }}
-        </main>
-        {% include footer.html %}
+    });
+  </script>
 
-        
-    </body>
+</head>
+
+<body>
+  {% include header.html %}
+  <main>
+    {{ content }}
+  </main>
+  {% include footer.html %}
+
+
+</body>
+
 </html>
-            
