@@ -12,8 +12,9 @@ html {
     font: var(--font-size-body, 14px)/1.5 'Roboto', sans-serif;
 }
 
-@media ( min-width: 600px ) {
+@media ( max-width: 600px ) {
     html { font-size: var(--font-size-body-larger, 16px); }
+    .grid-container { padding: 0 1em;}
 }
 
 @media ( min-width: 1024px ) {

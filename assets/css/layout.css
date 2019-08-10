@@ -141,10 +141,7 @@ nav li a:hover {
 
 .main-footer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    grid-template-areas:
-        "main-footer-section-1 main-footer-section-2 main-footer-section-3 main-footer-section-4";
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); 
     grid-gap: 1em;
     height: 12rem;
     color: #ffffff;

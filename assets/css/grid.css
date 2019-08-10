@@ -10,10 +10,7 @@
 
 .grid-conteiner {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    grid-template-areas:
-        "grid-block grid-block grid-block";
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); 
     grid-gap: 1em;
     margin-bottom: 2em;
 
@@ -45,10 +42,7 @@
 
 .clients_list {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    grid-template-areas:
-        "grid-clents grid-clents grid-clents grid-clents grid-clents";
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); 
     grid-gap: 1em;
     margin-bottom: 2em;
 }
