@@ -118,16 +118,22 @@ nav .nav {
     display: flex;
 }
 
-nav .nav-item {
+nav li {
     margin: 0 10px;
     list-style: none;
 }
 
-nav a {
+nav li a {
     color: #ffffff;
 }
 
-nav a:hover {
+nav li.active a {
+    color: #9fd3c7;
+    cursor: default;
+  }
+
+
+nav li a:hover {
     color: #9fd3c7;
 }
 
