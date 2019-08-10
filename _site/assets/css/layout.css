@@ -37,6 +37,8 @@ h5 a:hover {
     color: #142d4c;
 }
 
+/* header style*/
+
 .top-header {
     height: 2rem;
     background-color: #282727;
@@ -106,6 +108,8 @@ header .site-name a {
 
 }
 
+/* navigation style*/
+
 nav {
     align-self: center;
 }
@@ -126,6 +130,8 @@ nav a {
 nav a:hover {
     color: #9fd3c7;
 }
+
+/*footer style*/
 
 .main-footer {
     display: grid;
@@ -163,7 +169,7 @@ nav a:hover {
 
 .main-footer-section-1 span {
     font-size: small;
-    
+
 }
 
 .main-footer-section-1 a {
@@ -213,7 +219,7 @@ nav a:hover {
 
 .footer-bottom p {
     line-height: 2rem;
-    font-size: small;    
+    font-size: small;
     color: #ffffff;
     margin-bottom: 0;
 
@@ -221,7 +227,7 @@ nav a:hover {
 
 
 
-
+/*article style*/
 
 article {
     background: #ffffff;
