@@ -1,0 +1,128 @@
+@media (max-width: 600px) {
+    html {
+        font-size: var(--font-size-body, 14px);
+    }
+
+    /* Home Page */
+
+    .top-header {        
+        display: none;
+    }
+
+    header {
+        display: block;
+        height: auto;
+    }
+
+    header .site-name {        
+        text-align: center;
+    }
+
+    .callbacks_container {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+
+    .grid-container {        
+        padding: 0 1em;
+    }
+
+    nav .nav {
+        display: block;
+        text-align: center;
+        padding-left: 0;
+        
+    }
+
+    .main-footer {
+        height: auto;
+    }
+
+    .main-footer-section-1 {
+        text-align: center;
+    }
+
+    .main-footer-section-2  {
+        text-align: center;
+    }
+
+    .main-footer-section-3 {
+        text-align: center;
+    }
+
+    .main-footer-section-4 {
+        text-align: center;
+        padding-bottom: 1em;
+    }
+    .footer-bottom {
+        display: none;
+    }
+
+    /* Blog Page */
+
+    .posts {
+        padding: 0 1em;
+    }
+
+    article h2 {
+        text-align: center;
+    }
+
+    body > main > div.posts > article > a {
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+    }
+
+    article {
+        margin: 1em;;
+    }
+
+    /* Gallery Page */
+     
+    
+    /* About Page */
+
+     .about-page {
+         text-align: center;         
+     }
+
+     /*Contact Page*/
+
+     .contacts {
+         display: block;
+         
+     }
+
+     .wj-contact {
+         margin-bottom: 1em;
+     }
+
+     .google-map {
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+     }
+
+     .google-map iframe {
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+     }
+
+}
+
+@media (min-width: 1024px) {
+    html {
+        font-size: var(--font-size-body-big, 18px);
+    }
+}
+
+@media (min-width: 1600px) {
+    html {
+        font-size: var(--font-size-body-huge, 20px);
+    }
+}

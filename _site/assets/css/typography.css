@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
@@ -12,39 +14,56 @@ html {
     font: var(--font-size-body, 14px)/1.5 'Roboto', sans-serif;
 }
 
-@media ( max-width: 600px ) {
-    html { font-size: var(--font-size-body-larger, 16px); }
-    .grid-container { padding: 0 1em;}
-}
 
-@media ( min-width: 1024px ) {
-    html { font-size: var(--font-size-body-big, 18px); }
-}
 
-@media ( min-width: 1600px ) {
-    html { font-size: var(--font-size-body-huge, 20px); }
-}
-
-table, form, select, option, input, textarea {
+table,
+form,
+select,
+option,
+input,
+textarea {
     font: inherit;
     background: var(--color-body-bgrd, #FFF);
     color: var(--color-body-text, #000);
 }
 
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     font-size: 1em;
     margin-bottom: 0.5em;
     font-weight: normal;
     font-family: 'Roboto', sans-serif;
 }
 
-h1 { font-size: 2.6em; }
-h2 { font-size: 2.0em; }
-h3 { font-size: 1.8em; }
-h4 { font-size: 1.4em; }
-h5 { font-size: 1.2em; }
-h6 { font-size: 1.0em; }
+h1 {
+    font-size: 2.6em;
+}
+
+h2 {
+    font-size: 2.0em;
+}
+
+h3 {
+    font-size: 1.8em;
+}
+
+h4 {
+    font-size: 1.4em;
+}
+
+h5 {
+    font-size: 1.2em;
+}
+
+h6 {
+    font-size: 1.0em;
+}
 
 a {
     text-decoration: none;
@@ -55,16 +74,20 @@ a {
     padding-bottom: 1.5em;
 } */
 
-ul, ol {
+ul,
+ol {
     padding-left: 2em;
 }
 
-ul ul, ol ul, ul ol, ol ol {
+ul ul,
+ol ul,
+ul ol,
+ol ol {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
 }
 
-ol > li > ol > li {
+ol>li>ol>li {
     list-style-type: lower-roman;
 }
 
