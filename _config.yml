@@ -11,7 +11,7 @@ collections:
 email: archangelbg@abv.bg
 description: Welcome to my new blog running on Jekyll
 permalink: /:categories/:title/
-baseurl: 'https://chrisbg69.github.io'
+baseurl: ''
 url: ''
 markdown: kramdown
 
