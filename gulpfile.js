@@ -21,6 +21,10 @@ gulp.task("jekylldev", function() {
 	return cp.spawn("bundle", ["exec", "jekyll", "build"], { stdio: "inherit", shell: true });
 });
 
+// Jekyll
+gulp.task("jekyllprod", function() {
+	return cp.spawn("bundle", ["exec", "jekyll", "build --baseurl /chrisbg69.github.io"], { stdio: "inherit", shell: true });
+});
 
 
 gulp.task("watch", function() {
@@ -48,5 +52,5 @@ gulp.task("watch", function() {
 });
 
 
-
+gulp.task("deploy", gulp.series('jekyllprod', 'css'));
 gulp.task("default", gulp.series('jekylldev', 'css', 'watch'));
