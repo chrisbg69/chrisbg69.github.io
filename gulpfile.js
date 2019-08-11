@@ -53,4 +53,5 @@ gulp.task("watch", function() {
 
 
 gulp.task("deploy", gulp.series('jekyllprod', 'css'));
+
 gulp.task("default", gulp.series('jekylldev', 'css', 'watch'));
