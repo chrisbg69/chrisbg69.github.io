@@ -6,7 +6,7 @@ let gulp = require("gulp"),
 	browserSync = require('browser-sync').create(),
 	sass = require('gulp-sass'),
 	cp = require("child_process");
-gulp
+
 gulp.task("css", function() {
 	return gulp.src( 'assets/scss/**/*.scss' )
 		.pipe( sass().on('error', sass.logError) )
@@ -41,7 +41,8 @@ gulp.task("watch", function() {
 			"./*.html",
 			"./_includes/*.html",
 			"./_layouts/*.html",
-			"./_posts/**/*.*"
+			"./_posts/**/*.*",
+			"./scripts/*.js"
 		]
 	).on('change', gulp.series('jekylldev', 'css') );
 

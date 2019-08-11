@@ -671,6 +671,7 @@ h3 {
   transition: opacity .5s;
   z-index: 1; }
 
+/*Button styles*/
 .myButton {
   box-shadow: inset 0px 1px 0px 0px #97c4fe;
   background-color: #385170;
