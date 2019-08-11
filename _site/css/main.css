@@ -407,11 +407,6 @@ blockquote {
   --font-size-body-big: 18px;
   --font-size-body-huge: 20px; }
 
-/* Home Page */
-/* Blog Page */
-/* Gallery Page */
-/* About Page */
-/*Contact Page*/
 @media (max-width: 600px) {
   html {
     font-size: var(--font-size-body, 14px); }
