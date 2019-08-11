@@ -1,3 +1,5 @@
+/* mixins*/
+
 @mixin bp($point) {
 
     @if $point == desktop-large {
