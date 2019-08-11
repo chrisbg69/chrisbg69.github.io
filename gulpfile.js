@@ -11,7 +11,7 @@ gulp.task("css", function() {
 	return gulp.src( 'assets/scss/**/*.scss' )
 		.pipe( sass().on('error', sass.logError) )
 		.pipe( autoprefixer() )
-		.pipe( gulp.dest( './_site/css/' ) )
+		.pipe( gulp.dest( './_site/assets/css/' ) )
 		.pipe( browserSync.stream({ match: '**/*.css' }) )
 	;
 });
