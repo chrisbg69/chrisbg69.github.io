@@ -30,9 +30,7 @@ exclude:
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
-  - vendor/ruby/
-  - _site  
-  - _assets
+  - vendor/ruby/  
   - gulpfile.js
   - package.json
   - package-lock.json
