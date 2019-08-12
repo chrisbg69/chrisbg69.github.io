@@ -1,9 +1,13 @@
-@media (max-width: 600px) {
+@media (max-width: 650px) {
     html {
         font-size: var(--font-size-body, 14px);
     }
 
     /* Home Page */
+
+    main {
+        padding: 0 1em;
+    }
 
     .top-header {        
         display: none;
@@ -18,11 +22,7 @@
         text-align: center;
     }
 
-    .callbacks_container {
-        padding-left: 0.5em;
-        padding-right: 0.5em;
-    }
-
+    
     .grid-container {        
         padding: 0 1em;
     }
