@@ -1,0 +1,37 @@
+.subscribe-form {
+    margin-bottom: 2rem;
+    
+}
+
+.simple-subscription-form {
+    background: #cccccc;
+    color: #fefefe;
+    padding: 2rem;
+    border: 2px solid #385170;
+    border-radius: 0.5em;
+}
+
+body>main>section.subscribe-form>div>form {
+    border: 1px solid #385170;
+    border-radius: 0.5em;
+    background: #ececec;
+}
+
+body>main>section.subscribe-form>div>form>h4 {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+body>main>section.subscribe-form>div>form>p {
+    text-align: center;
+}
+
+.input-group {
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+.simple-subscription-form .button {
+    margin-bottom: 0;
+
+}
