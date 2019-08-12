@@ -125,4 +125,9 @@
     html {
         font-size: var(--font-size-body-huge, 20px);
     }
+
+    .main-footer {
+        height: auto;
+    }
+    
 }
