@@ -149,8 +149,7 @@
         font-size: var(--font-size-body-huge, 20px);
     }
 
-    main {
-        max-width: 100%;
+    main {        
         padding: 0 0.01em;
     }
 
