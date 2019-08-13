@@ -150,7 +150,8 @@
     }
 
     main {
-        padding: 0 5em;
+        max-width: fit-content;
+        padding: 0 0.01em;
     }
 
 
