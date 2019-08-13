@@ -144,27 +144,3 @@
 
 }
 
-@media (min-width: 1700px) {
-    html {
-        font-size: var(--font-size-body-huge, 20px);
-    }
-
-    main {
-        
-        padding: 0 0.01em;
-    }
-
-    .grid-conteiner {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); 
-        grid-gap: 1em;
-        margin-bottom: 2em;
-    
-    }
-
-    .main-footer {
-        height: auto;
-        padding: 1em 0;
-    }
-
-}
