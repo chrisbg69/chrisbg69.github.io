@@ -37,7 +37,7 @@
 }
 
 .main-grid-content li i {
-    color: #385170;
+    color: var(--color-site-main);
 }
 
 .clients_list {

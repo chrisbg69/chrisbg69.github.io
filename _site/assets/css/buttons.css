@@ -1,6 +1,6 @@
 .myButton {	
 	box-shadow:inset 0px 1px 0px 0px #97c4fe;
-	background-color:#385170;	
+	background-color:var(--color-site-main);	
 	border-radius:6px;
 	border:1px solid #385170;
 	display:inline-block;

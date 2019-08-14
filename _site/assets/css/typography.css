@@ -67,7 +67,7 @@ h6 {
 
 a {
     text-decoration: none;
-    color: var(--color-link-default, #0A0);
+    color: var(--color-link-default);
 }
 
 /* p, ul, ol {

@@ -14,7 +14,7 @@
 body>main>section.subscribe-form>div>form {
     border: 1px solid #385170;
     border-radius: 0.5em;
-    background: #ececec;
+    background: var(--color-body-bgrd);
 }
 
 body>main>section.subscribe-form>div>form>h4 {

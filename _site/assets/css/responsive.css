@@ -77,7 +77,13 @@
 
     article {
         margin: 1em;
-        ;
+
+    }
+
+    body>main>article>a.myButton {
+        text-align: center;
+        margin: 0 auto;
+        display: block;
     }
 
     /* Gallery Page */
@@ -143,4 +149,3 @@
     }
 
 }
-
