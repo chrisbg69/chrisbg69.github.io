@@ -143,7 +143,7 @@ nav li a:hover {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     grid-gap: 1em;
-    height: 12rem;
+    padding: 1em 0;
     color: #ffffff;
     background-color: var(--color-site-main);
 
