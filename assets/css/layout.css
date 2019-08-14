@@ -1,6 +1,6 @@
 body {
-
-    background: #ececec;
+   
+    background: var(--color-body-bgrd);
 }
 
 main {
@@ -86,7 +86,7 @@ h5 a:hover {
 
 header {
     height: 5rem;
-    background-color: #385170;
+    background-color: var(--color-site-main);
     display: flex;
     justify-content: space-between;
     align-content: center;
@@ -128,13 +128,13 @@ nav li a {
 }
 
 nav li.active a {
-    color: #9fd3c7;
+    color: var(--color-link-default);
     cursor: default;
   }
 
 
 nav li a:hover {
-    color: #9fd3c7;
+    color: var(--color-link-default);
 }
 
 /*footer style*/
@@ -145,7 +145,7 @@ nav li a:hover {
     grid-gap: 1em;
     height: 12rem;
     color: #ffffff;
-    background-color: #385170;
+    background-color: var(--color-site-main);
 
 }
 
@@ -208,7 +208,7 @@ nav li a:hover {
 }
 
 .nav-link-footer:hover {
-    color: #9fd3c7;
+    color: var(--color-link-default);
 }
 
 .footer-bottom {
@@ -255,11 +255,11 @@ article {
 }
 
 .archive-item a {
-    color: #385170;
+    color: var(--color-site-main);
 }
 
 .archive-item a:hover {
-    color: #9fd3c7;
+    color: var(--color-link-default);
 }
 
 /* About page */
@@ -277,7 +277,7 @@ article {
     border: 1px solid #eee;
     margin-left: -2px;
     margin-right: -2px;
-    color: #385170;
+    color: var(--color-site-main);
     background-color: #ffffff;
     display: inline-block;
 }
@@ -324,7 +324,7 @@ form.wj-contact textarea[type="text"] {
 form.wj-contact input[type="submit"] {
     outline: none;
     color: white;
-    background-color: #385170;
+    background-color: var(--color-site-main);
     border-radius: 3px;
     padding: 0.5em;
     margin: 0.25em 0 0 0;

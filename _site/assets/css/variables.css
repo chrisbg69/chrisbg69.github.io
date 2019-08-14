@@ -4,11 +4,16 @@
     --font-size-body-big: 18px;
     --font-size-body-huge: 20px;
 
+    --color-body-bgrd: #ececec;
+    --color-site-main: #385170;
+    --color-link-default: #9fd3c7;
+
+
     /* --layout-main-width: 60em;
 
     --color-body-text: #000;
-    --color-body-bgrd: #FFF;
-    --color-link-default: #369;
+    
+    
 
     --color-border-default: #999;
 
