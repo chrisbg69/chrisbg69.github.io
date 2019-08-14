@@ -23,7 +23,7 @@ option,
 input,
 textarea {
     font: inherit;
-    background: var(--color-body-bgrd, #FFF);
+    background: #fff;
     color: var(--color-body-text, #000);
 }
 
