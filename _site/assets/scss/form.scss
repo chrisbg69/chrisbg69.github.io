@@ -1,0 +1,35 @@
+//colors
+$color_0: #cccccc;
+$color_1: #fefefe;
+$color_2: #385170;
+
+.subscribe-form {
+	margin-bottom: 2rem;
+}
+.simple-subscription-form {
+	background: $color_0;
+	color: $color_1;
+	padding: 2rem;
+	border: 2px solid $color_2;	
+	border-radius: 0.5em;
+	.button {
+		margin-bottom: 0;
+	}
+}
+.input-group {
+	text-align: center;
+	padding-bottom: 0.5em;
+}
+body > main > section.subscribe-form > div > form {
+	border: 1px solid $color_2;
+	
+	border-radius: 0.5em;
+	background: var(--color-body-bgrd);
+	> h4 {
+		margin-bottom: 0;
+		text-align: center;
+	}
+	> p {
+		text-align: center;
+	}
+}

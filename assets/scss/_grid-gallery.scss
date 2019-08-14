@@ -1,8 +1,10 @@
+//colors
+$color_0: rgba(90, 0, 10, 0.4);
 $color_1: white;
 
 .grid-container-gallery {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 	grid-gap: 1em;
 }
 .location-image {
@@ -10,8 +12,8 @@ $color_1: white;
 	img {
 		width: 100%;
 		height: auto;
-		filter: blur(0px);
-		transition: filter 0.3s ease-in;
+		filter: blur(0px);		
+		transition: filter 0.3s ease-in;		
 		transform: scale(1.1);
 	}
 }
@@ -21,13 +23,11 @@ $color_1: white;
 	margin: 0;
 	padding: 0;
 	&:hover {
-		.location-image {
-			img {
-				filter: blur(2px);
-			}
-		}
 		.location-title {
 			opacity: 1;
+		}
+		.location-image img {
+			filter: blur(2px);
 		}
 	}
 }
@@ -37,7 +37,7 @@ $color_1: white;
 	left: 0;
 	height: 100%;
 	width: 100%;
-	background: rgba(90, 0, 10, 0.4);
+	background: $color_0;
 	color: $color_1;
 	font-size: 1.5em;
 	font-weight: bold;
@@ -45,7 +45,7 @@ $color_1: white;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	opacity: 0;
+	opacity: 0;	
 	transition: opacity .5s;
 	z-index: 1;
 }

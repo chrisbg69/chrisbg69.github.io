@@ -1,107 +1,103 @@
-@import "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap";
-@import "https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap";
+//colors
+$color_0: #fff;
+$color_1: #000;
 
+//fonts
+$font_0: "Roboto";
+$font_1: "sans-serif";
 
-* {
+//@extend-elements
+//original selectors
+//*, *:before, *:after
+%extend_1 {
 	margin: 0;
 	padding: 0;
+	
 	box-sizing: inherit;
+}
+
+//original selectors
+//table, form, select, option, input, textarea
+%extend_2 {
+	font: inherit;
+	background: $color_0;
+	color: var(--color-body-text, $color_1);
+}
+
+//original selectors
+//h1, h2, h3, h4, h5, h6, p
+%extend_3 {
+	font-size: 1em;
+	margin-bottom: 0.5em;
+	font-weight: normal;
+	font-family: $font_0, $font_1;
+}
+
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap");
+* {
+	@extend %extend_1;
 	&:before {
-		margin: 0;
-		padding: 0;
-		box-sizing: inherit;
+		@extend %extend_1;
 	}
 	&:after {
-		margin: 0;
-		padding: 0;
-		box-sizing: inherit;
+		@extend %extend_1;
 	}
 }
 html {
+	
 	box-sizing: border-box;
 	font: var(--font-size-body, 14px)/1.5 'Roboto', sans-serif;
 }
 table {
-	font: inherit;
-	background: var(--color-body-bgrd, #FFF);
-	color: var(--color-body-text, #000);
+	@extend %extend_2;
 }
 form {
-	font: inherit;
-	background: var(--color-body-bgrd, #FFF);
-	color: var(--color-body-text, #000);
+	@extend %extend_2;
 }
 select {
-	font: inherit;
-	background: var(--color-body-bgrd, #FFF);
-	color: var(--color-body-text, #000);
+	@extend %extend_2;
 }
 option {
-	font: inherit;
-	background: var(--color-body-bgrd, #FFF);
-	color: var(--color-body-text, #000);
+	@extend %extend_2;
 }
 input {
-	font: inherit;
-	background: var(--color-body-bgrd, #FFF);
-	color: var(--color-body-text, #000);
+	@extend %extend_2;
 }
 textarea {
-	font: inherit;
-	background: var(--color-body-bgrd, #FFF);
-	color: var(--color-body-text, #000);
+	@extend %extend_2;
 }
 h1 {
-	font-size: 1em;
-	margin-bottom: 0.5em;
-	font-weight: normal;
-	font-family: 'Roboto', sans-serif;
+	@extend %extend_3;
 	font-size: 2.6em;
 }
 h2 {
-	font-size: 1em;
-	margin-bottom: 0.5em;
-	font-weight: normal;
-	font-family: 'Roboto', sans-serif;
+	@extend %extend_3;
 	font-size: 2.0em;
 }
 h3 {
-	font-size: 1em;
-	margin-bottom: 0.5em;
-	font-weight: normal;
-	font-family: 'Roboto', sans-serif;
+	@extend %extend_3;
 	font-size: 1.8em;
 }
 h4 {
-	font-size: 1em;
-	margin-bottom: 0.5em;
-	font-weight: normal;
-	font-family: 'Roboto', sans-serif;
+	@extend %extend_3;
 	font-size: 1.4em;
 }
 h5 {
-	font-size: 1em;
-	margin-bottom: 0.5em;
-	font-weight: normal;
-	font-family: 'Roboto', sans-serif;
+	@extend %extend_3;
 	font-size: 1.2em;
 }
 h6 {
-	font-size: 1em;
-	margin-bottom: 0.5em;
-	font-weight: normal;
-	font-family: 'Roboto', sans-serif;
+	@extend %extend_3;
 	font-size: 1.0em;
 }
 p {
-	font-size: 1em;
-	margin-bottom: 0.5em;
-	font-weight: normal;
-	font-family: 'Roboto', sans-serif;
+	@extend %extend_3;
 }
 a {
 	text-decoration: none;
-	color: var(--color-link-default, #0A0);
+	color: var(--color-link-default);
 }
 ul {
 	padding-left: 2em;
@@ -124,12 +120,8 @@ ol {
 		padding-top: 0.5em;
 		padding-bottom: 0.5em;
 	}
-	>li {
-		>ol {
-			>li {
-				list-style-type: lower-roman;
-			}
-		}
+	> li > ol > li {
+		list-style-type: lower-roman;
 	}
 }
 blockquote {

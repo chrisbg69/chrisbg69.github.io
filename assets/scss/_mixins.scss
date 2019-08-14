@@ -1,27 +1,39 @@
 /* mixins*/
 
-@mixin bp($point) {
+@mixin layout($point) {
 
     @if $point == desktop-large {
-        @media (min-width: 1800px) {
+        @media (min-width: 1600px) {
             @content;
         }
     }
 
     @else if $point == desktop {
-        @media (min-width: 1024px) and (max-width: 1799px){
+        @media (min-width: 1250px) {
             @content;
         }
     }
 
-    @else if $point == tablet {
+    @else if $point == laptop {
+        @media (min-width: 1024px) {
+            @content;
+        }
+    }
+
+    @else if $point == mobile {
         @media (max-width: 1023px) {
             @content;
         }
     }
 
     @else if $point == phone {
-        @media (max-width: 600px) {
+        @media (max-width: 650px) {
+            @content;
+        }
+    }
+
+    @else if $point == small-phone {
+        @media (max-width: 460px) {
             @content;
         }
     }
