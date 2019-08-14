@@ -1,5 +1,5 @@
 body {
-   
+
     background: var(--color-body-bgrd);
 }
 
@@ -307,8 +307,8 @@ article {
     grid-template-areas:
         "address-site adress-site"
         "wj-contact google-map";
-        grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;    
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
     grid-gap: 1em;
     justify-content: space-between;
 }
@@ -316,7 +316,7 @@ article {
 form.wj-contact input[type="text"],
 form.wj-contact textarea[type="text"] {
     width: 100%;
-    vertical-align: middle;    
+    vertical-align: middle;
     margin-bottom: 0.5em;
     padding: 0.75em;
     font-family: monospace, sans-serif;
@@ -334,25 +334,49 @@ form.wj-contact input[type="submit"] {
     color: white;
     background-color: var(--color-site-main);
     border-radius: 3px;
-    padding: 0.5em;
-    margin: 0.5em 0 0 0;
+    padding: 0.5em;    
     border: 1px solid transparent;
     height: auto;
     width: 100%;
 }
 
 .address-site {
-    grid-area: address-site;  
-    border: 1px solid var(--color-site-main);
+    grid-area: address-site;
+    border: 2px solid var(--color-site-main);
     background: #cccccc;
     border-radius: 0.3em;
-    padding: 0.75em;    
+    padding: 0.75em;
+    color: #142d4c;
 }
 
 .address-site h5 {
     margin-bottom: 0;
 }
 
-.address-site  p {
+.address-site p {
     margin-bottom: 0;
+}
+
+.address-site hr {
+    margin-bottom: 0.5em;
+}
+
+.address-site-right {    
+    border: 2px solid var(--color-site-main);
+    background: #cccccc;
+    border-radius: 0.3em;
+    padding: 0.75em;
+    color: #142d4c;
+}
+
+.address-site-right h5 {
+    margin-bottom: 0;
+}
+
+.address-site-right p {
+    margin-bottom: 0;
+}
+
+.address-site-right hr {
+    margin-bottom: 0.5em;
 }

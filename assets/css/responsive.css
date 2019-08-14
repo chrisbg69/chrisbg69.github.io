@@ -102,6 +102,11 @@
 
     }
 
+    .address-site, 
+    .address-site-right {
+        margin-bottom: 0.5em;
+    }
+
     .wj-contact {
         margin-bottom: 1em;
     }
