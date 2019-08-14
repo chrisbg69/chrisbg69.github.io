@@ -1,11 +1,15 @@
-@media (max-width: 600px) {
+@media (max-width: 650px) {
     html {
         font-size: var(--font-size-body, 14px);
     }
 
     /* Home Page */
 
-    .top-header {        
+    main {
+        padding: 0 1em;
+    }
+
+    .top-header {
         display: none;
     }
 
@@ -14,16 +18,12 @@
         height: auto;
     }
 
-    header .site-name {        
+    header .site-name {
         text-align: center;
     }
 
-    .callbacks_container {
-        padding-left: 0.5em;
-        padding-right: 0.5em;
-    }
 
-    .grid-container {        
+    .grid-container {
         padding: 0 1em;
     }
 
@@ -31,7 +31,7 @@
         display: block;
         text-align: center;
         padding-left: 0;
-        
+
     }
 
     .main-footer {
@@ -42,7 +42,7 @@
         text-align: center;
     }
 
-    .main-footer-section-2  {
+    .main-footer-section-2 {
         text-align: center;
     }
 
@@ -54,6 +54,7 @@
         text-align: center;
         padding-bottom: 1em;
     }
+
     .footer-bottom {
         display: none;
     }
@@ -68,56 +69,61 @@
         text-align: center;
     }
 
-    body > main > div.posts > article > a {
+    body>main>div.posts>article>a {
         text-align: center;
         margin: 0 auto;
         display: block;
     }
 
     article {
-        margin: 1em;;
+        margin: 1em;
+        ;
     }
 
     /* Gallery Page */
-     
-    
+
+
     /* About Page */
 
-     .about-page {
-         text-align: center;         
-     }
+    .about-page {
+        text-align: center;
+    }
 
-     /*Contact Page*/
+    /*Contact Page*/
 
-     .contacts {
-         display: block;
-         
-     }
+    .contacts {
+        display: block;
 
-     .wj-contact {
-         margin-bottom: 1em;
-     }
+    }
 
-     .google-map {
-        overflow:hidden;
-        padding-bottom:56.25%;
-        position:relative;
-        height:0;
-     }
+    .wj-contact {
+        margin-bottom: 1em;
+    }
 
-     .google-map iframe {
-        left:0;
-        top:0;
-        height:100%;
-        width:100%;
-        position:absolute;
-     }
+    .google-map {
+        overflow: hidden;
+        padding-bottom: 56.25%;
+        position: relative;
+        height: 0;
+    }
+
+    .google-map iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
 
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1599px) {
     html {
         font-size: var(--font-size-body-big, 18px);
+    }
+
+    main {
+        padding: 0 0.01em;
     }
 }
 
@@ -125,4 +131,16 @@
     html {
         font-size: var(--font-size-body-huge, 20px);
     }
+
+    main {
+        padding: 0 0.01em;
+    }
+
+
+    .main-footer {
+        height: auto;
+        padding: 1em 0;
+    }
+
 }
+
